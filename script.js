@@ -25,9 +25,6 @@ var saveSchedule = function() {
     console.log(this);
 };
 
-for (var i = 0; i < saveTask.length;  i++) {
-    saveTask[i].addEventListener("click", saveSchedule);
-}
 
 // 4. color-code timeslots for past, present, and future
 var auditTime = function() {
@@ -45,6 +42,10 @@ var auditTime = function() {
             textareaEl[i].classList.add("present");
         } 
     }
+};
+
+for (var i = 0; i < saveTask.length;  i++) {
+    saveTask[i].addEventListener("click", saveSchedule);
 };
 
 auditTime();
