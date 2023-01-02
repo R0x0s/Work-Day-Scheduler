@@ -8,3 +8,5 @@ Provides date and time.
 Saves to local storage.
 From 9am to 5pm 
 Color coordinates past, present and future.
+As well saves your tasks to local storage.
+
